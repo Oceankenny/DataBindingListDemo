@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:paddingTop="5dp">
+
+   <TableLayout android:layout_width="fill_parent"
+        android:shrinkColumns="*" android:layout_marginLeft="3dip" android:stretchColumns="*"
+        android:layout_marginRight="10dip" android:layout_height="wrap_content">
+        <TableRow android:layout_marginBottom="1dip">
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images"/>
+            <ImageView
+                android:layout_marginLeft="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images"/>
+
+        </TableRow>
+        <TableRow android:layout_marginBottom="5dip">
+            <ImageView
+                android:layout_marginLeft="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images"/>
+            <ImageView
+                android:layout_marginLeft="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images"/>
+        </TableRow>
+        <TableRow android:layout_marginBottom="5dip">
+            <ImageView
+                android:layout_marginLeft="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

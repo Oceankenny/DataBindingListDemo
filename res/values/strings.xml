@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListDemo</string>
+    <string name="hello_world">List View Demo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="header"></string>
+    <string name="body"></string>
+    <string name="attachment"></string>
+</resources>
