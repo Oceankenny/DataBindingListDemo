@@ -6,5 +6,5 @@ package com.example.binder;
  *
  */
 public interface IBinder {
-
+	public void prepare();
 }
